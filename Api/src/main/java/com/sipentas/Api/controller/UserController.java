@@ -67,6 +67,8 @@ public class UserController {
             response.put("message", "Login berhasil");
             response.put("nim", nim);
             response.put("token", token);
+            response.put("apiKey", VALID_API_KEY);
+            response.put("keterangan", "API Key dan Token berhasil dibuat");
         } else {
             response.put("success", false);
             response.put("message", "NIM atau password salah");
