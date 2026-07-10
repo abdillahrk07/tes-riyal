@@ -1,4 +1,4 @@
-package com.sipentas.Api.filter;
+package filter;
 
 import com.sipentas.Api.repository.ApiKeyRepository;
 import jakarta.servlet.Filter;
